@@ -161,21 +161,11 @@ button:hover{
 }
 
 @keyframes popUp {
-    from {
-        transform: translateY(8.5rem);
-    }
-
-    to {
-        transform: translateY(0);
-    }
-}
-
-@keyframes scale {
     0% {
-        scale: 0;
+      transform: translateY(8rem) scale(0.1);
     }
 
     100% {
-        scale: 1;
+      transform: translateY(0px) scale(1);
     }
 }
